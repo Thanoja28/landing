@@ -1,0 +1,48 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+/*cards css */
+@import url('components/cards.css');
+/*footer.css*/
+@import url('components/footer.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+.container a {
+  text-decoration: none;
+  background: #772f1a;
+  border-radius: 4px;
+  color: #fff;
+  padding: 10px;
+}
+p {
+  font-style: italic;
+  font-weight: lighter;
+}
+
+
+/* Custom design below! */
+
+.banner {
+  background: url("https://images.pexels.com/photos/4065885/pexels-photo-4065885.jpeg?cs=srgb&dl=pexels-cottonbro-4065885.jpg&fm=jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 270px;
+  opacity: 0.8;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+

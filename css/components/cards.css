@@ -1,0 +1,12 @@
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  background: #fff;
+  /*border: 1px solid #8f5c38;*/
+  text-align: center;
+  padding: 17px;
+  box-shadow: 0  0  5px #D2D7DF;
+}
